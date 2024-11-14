@@ -1,0 +1,92 @@
+/* Estilos generales para todo el sitio */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #c8102e; /* Rojo de River Plate */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.content-container {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#registro {
+    background-color: #eaf2f4; /* Fondo claro para el formulario */
+    border-left: 8px solid #c8102e; /* Rojo en la izquierda */
+}
+
+.contenido {
+    background-color: #ffe6e6; /* Fondo rosa suave */
+    border-left: 8px solid #c8102e;
+}
+
+#contacto {
+    background-color: #f4f9f4; /* Fondo verde muy suave */
+    border-left: 8px solid #c8102e;
+}
+
+h2 {
+    color: #c8102e; /* Rojo en los títulos */
+}
+
+button {
+    background-color: #c8102e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background
